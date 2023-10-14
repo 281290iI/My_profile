@@ -1,0 +1,232 @@
+body {
+  margin: 0;
+  font-family: "Cabin", sans-serif;
+  color: white;
+}
+h1 {
+  font-size: 45px;
+}
+h2 {
+  font-size: 21px;
+}
+h3 {
+  font-size: 18px;
+}
+p {
+  font-size: 15px;
+}
+span {
+  font-size: 12px;
+}
+.blue_rectangle {
+  height: 4px;
+  width: 26px;
+  background-color: rgba(83, 77, 196, 0.827);
+}
+main {
+  background-color: rgb(9, 33, 55);
+  width: 1035px;
+  min-height: 920px;
+  display: grid;
+  grid-template-columns: 45% 55%;
+  grid-template-rows: 1fr 900px;
+  margin: 0 auto;
+  padding: 0;
+}
+/*Avatar*/
+.avatar {
+  position: relative;
+}
+.avatar::before {
+  content: "";
+  position: absolute;
+  width: 53px;
+  height: 100%;
+  background-color: rgba(83, 77, 196, 0.488);
+}
+.avatar > img {
+  width: 466px;
+  height: 100%;
+  float: right;
+}
+/*Profile*/
+.profile {
+  background-color: rgba(195, 192, 255, 0.733);
+  padding: 68px 18px 9px 48px;
+  color: black;
+}
+.profile h3 {
+  margin-top: 75px;
+  margin-bottom: 41px;
+}
+.profile .blue_rectangle {
+  margin: 21px 0;
+}
+.profile p {
+  font-size: 17px;
+}
+
+.blue_background {
+  background-color: rgb(255, 255, 255);
+  width: max-content;
+  padding: 1xp 2px 1px 8px;
+  border-radius: 2.5px;
+}
+/* Education section */
+.education {
+  background-color: rgb(15, 15, 64);
+  padding: 25px 0;
+  height: 850px;
+  padding-left: 45px;
+  position: relative;
+}
+.education h2 {
+  margin-top: 55px;
+}
+.education .blue_rectangle {
+  margin: 20px 0;
+}
+.education > p {
+  margin-top: 12px;
+  margin-bottom: 25px;
+}
+.grey_line {
+  width: 180px;
+  height: 6px;
+  background-color: rgb(106, 106, 104);
+}
+.yellow_line {
+  height: 100%;
+  background-color: rgba(83, 77, 196, 0.827);
+  position: relative;
+}
+.yellow_line::after {
+  content: "";
+  height: calc(100% + 2px);
+  right: 0;
+  top: -1px;
+  width: 4px;
+  position: absolute;
+  background-color: rgba(83, 77, 196, 0.827);
+}
+.w140 {
+  width: 140px;
+}
+.w120 {
+  width: 120px;
+}
+.w121 {
+  width: 121px;
+}
+.w98 {
+  width: 98px;
+}
+.w86 {
+  width: 86px;
+}
+/* Contakts */
+.contakts {
+  display: flex;
+  gap: 17px;
+  position: absolute;
+  bottom: 5px;
+}
+.contakts > div {
+  height: 148px;
+  display: flex;
+  flex-direction: column;
+}
+.contakts img {
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+}
+.contakts_icon {
+  background-color: rgba(83, 77, 196, 0.827);
+  width: 45px;
+  justify-content: space-around;
+  align-items: center;
+}
+.contakts_data {
+  width: max-content;
+  justify-content: space-evenly;
+  padding: 5px 5px 5px 5px;
+}
+.contakts_data p {
+  margin: 5px;
+}
+.contakts h2 {
+  margin-top: 55px;
+}
+.expertise {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: 30px 30px 30px 30px 30px;
+  justify-items: start;
+  align-items: center;
+}
+.expertise h3 {
+  line-height: 16px;
+  letter-spacing: 5px;
+}
+.education .work {
+  background-color: rgb(8, 6, 37);
+  height: 950px;
+}
+.f10 {
+  font-size: 15px;
+}
+.work {
+  padding: 25px 0;
+  height: 850px;
+  padding-left: 45px;
+  position: relative;
+}
+.work > h2 {
+  margin-top: 55px;
+}
+.work .blue_rectangle {
+  margin: 21px 0;
+}
+.mt15 {
+  margin-top: 15px;
+}
+.mb30 {
+  margin-bottom: 30px;
+} 
+.mt {
+  margin-top: 20px;
+}
+.work h3 {
+  margin-bottom: 20px;
+}
+.bl {
+  color: black;
+  padding: 1px 2px 1px 3px;
+  font-weight: 700;
+}
+.blue_background + span {
+  font-size: 12px;
+}
+.work > p {
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+.interests {
+  margin-top: 18px;
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+}
+.interests > div {
+  display: flex;
+  flex-direction: column;
+  height: 65px;
+justify-content: space-between;
+align-items: center;
+}
+.interests img {
+  height: 45px;
+  width: 45px;
+  background-color:  rgba(83, 77, 196, 0.827);
+}
