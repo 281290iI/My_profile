@@ -232,6 +232,6 @@ align-items: center;
 }
 @media (max-width: 410px) {
   main {
-    width: 100%;
+    width: 50%;
   }
 } 
