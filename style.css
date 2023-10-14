@@ -230,7 +230,7 @@ align-items: center;
   width: 45px;
   background-color:  rgba(83, 77, 196, 0.827);
 }
-@media screen and (min-width: 410px) {
+@media (max-width: 410px) {
   .main {
     width: 100%;
   }
