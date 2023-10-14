@@ -230,8 +230,8 @@ align-items: center;
   width: 45px;
   background-color:  rgba(83, 77, 196, 0.827);
 }
-@media (max-width: 410px) {
+@media (max-width: 390px) {
   main {
-    width: 50%;
+    width: 100%;
   }
 } 
