@@ -231,7 +231,7 @@ align-items: center;
   background-color:  rgba(83, 77, 196, 0.827);
 }
 @media (max-width: 410px) {
-  .main {
+  main {
     width: 100%;
   }
 } 
