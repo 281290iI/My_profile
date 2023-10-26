@@ -230,8 +230,9 @@ align-items: center;
   width: 45px;
   background-color:  rgba(83, 77, 196, 0.827);
 }
-@media (min-width: 390px) {
-  main {
+@media (min-width: 110px) and (max-width: 
+610px) {
+  body {
     width: 100%;
   }
-} 
+}
