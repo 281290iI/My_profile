@@ -234,5 +234,6 @@ align-items: center;
 610px) {
   body {
     width: 100%;
+    height: auto
   }
 }
