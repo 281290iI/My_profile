@@ -232,7 +232,7 @@ align-items: center;
 }
 @media (min-width: 110px) and (max-width: 
 610px) {
-  body {
+  main {
     width: 100%;
     height: auto
   }
